@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+  <name>HUSACCT Maven plugin</name>
+  <description></description>
+  <groupId>husacct.plugin</groupId>
+  <artifactId>husacct-maven-plugin</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <goalPrefix>husacct</goalPrefix>
+  <isolatedRealm>false</isolatedRealm>
+  <inheritedByDefault>true</inheritedByDefault>
+  <mojos>
+    <mojo>
+      <goal>husacct</goal>
+      <description>Checks an existing Maven project using the HUSACCT library</description>
+      <requiresDirectInvocation>false</requiresDirectInvocation>
+      <requiresProject>false</requiresProject>
+      <requiresReports>false</requiresReports>
+      <aggregator>false</aggregator>
+      <requiresOnline>false</requiresOnline>
+      <inheritedByDefault>true</inheritedByDefault>
+      <implementation>husacct.maven.plugin.HusacctMojo</implementation>
+      <language>java</language>
+      <instantiationStrategy>per-lookup</instantiationStrategy>
+      <executionStrategy>once-per-session</executionStrategy>
+      <threadSafe>false</threadSafe>
+      <parameters>
+        <parameter>
+          <name>outputFormat</name>
+          <type>java.lang.String</type>
+          <required>false</required>
+          <editable>true</editable>
+          <description>Output format</description>
+        </parameter>
+        <parameter>
+          <name>outputLocation</name>
+          <type>java.lang.String</type>
+          <required>false</required>
+          <editable>true</editable>
+          <description>Output location</description>
+        </parameter>
+        <parameter>
+          <name>workspaceLocation</name>
+          <type>java.lang.String</type>
+          <required>false</required>
+          <editable>true</editable>
+          <description>Workspace location.</description>
+        </parameter>
+      </parameters>
+      <configuration>
+        <outputFormat implementation="java.lang.String" default-value="xml">${husacct.outputformat}</outputFormat>
+        <outputLocation implementation="java.lang.String" default-value=".">${husacct.outputlocation}</outputLocation>
+        <workspaceLocation implementation="java.lang.String" default-value="workspace.hu">${husacct.workspace}</workspaceLocation>
+      </configuration>
+    </mojo>
+  </mojos>
+  <dependencies>
+    <dependency>
+      <groupId>org.apache.maven</groupId>
+      <artifactId>maven-plugin-api</artifactId>
+      <type>jar</type>
+      <version>2.0</version>
+    </dependency>
+    <dependency>
+      <groupId>husacct.core</groupId>
+      <artifactId>husacct-core</artifactId>
+      <type>jar</type>
+      <version>1.0</version>
+    </dependency>
+  </dependencies>
+</plugin>
