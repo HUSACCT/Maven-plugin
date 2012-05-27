@@ -19,13 +19,7 @@ package husacct.maven.plugin;
 import husacct.ServiceProvider;
 import husacct.analyse.IAnalyseService;
 import husacct.control.ControlServiceImpl;
-import husacct.control.task.ApplicationController;
-import husacct.control.task.ExportController;
-import husacct.control.task.ImportController;
-import husacct.control.task.LocaleController;
 import husacct.control.task.MainController;
-import husacct.control.task.StateController;
-import husacct.control.task.ViewController;
 import husacct.control.task.WorkspaceController;
 import husacct.validate.IValidateService;
 
@@ -51,23 +45,17 @@ public class HusacctMojo extends AbstractMojo {
 	
 	/**
 	 * Output format
-	 * @parameter expression="${husacct.outputformat}" default-value="xml"
+	 * @parameter expression="${husacct.outputformat}" default-value="pdf"
 	 */	
 	private String outputFormat;
 	
 	/**
 	 * Output location
-	 * @parameter expression="${husacct.outputlocation}" default-value="."
+	 * @parameter expression="${husacct.outputlocation}" default-value="./export.pdf"
 	 */	
 	private String outputLocation;
 	
 	private MainController mainController;
-	private ApplicationController applicationController;
-	private ExportController exportController;
-	private ImportController importController;
-	private LocaleController localeController;
-	private StateController stateController;
-	private ViewController viewController;
 	private WorkspaceController workspaceController;
 	
 	public void execute() throws MojoExecutionException, MojoFailureException {
@@ -82,12 +70,6 @@ public class HusacctMojo extends AbstractMojo {
 	private void setControllers(){
 		ControlServiceImpl controlService = (ControlServiceImpl) ServiceProvider.getInstance().getControlService();
 		mainController = controlService.getMainController();
-		applicationController = mainController.getApplicationController();
-		exportController = mainController.getExportController();
-		importController = mainController.getImportController();
-		localeController = mainController.getLocaleController();
-		stateController = mainController.getStateController();
-		viewController = mainController.getViewController();
 		workspaceController = mainController.getWorkspaceController();
 	}
 	
@@ -130,6 +112,8 @@ public class HusacctMojo extends AbstractMojo {
 	
 	private void exportViolations(String location, String extension) {
 		IValidateService validateService = ServiceProvider.getInstance().getValidateService();
+		File file = new File(location);
+		getLog().debug(String.format("Export violations to %s", file.getAbsolutePath()));
 		validateService.exportViolations(new File(location), extension);
 	}
 }
