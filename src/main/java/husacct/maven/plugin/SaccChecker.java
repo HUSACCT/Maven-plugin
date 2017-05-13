@@ -18,6 +18,7 @@ import java.io.File;
 import java.text.MessageFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Properties;
 
 @Mojo(name="husacct")
 public class SaccChecker extends AbstractMojo {
@@ -45,7 +46,6 @@ public class SaccChecker extends AbstractMojo {
 
     public void execute() throws MojoExecutionException, MojoFailureException {
         logger.info("Starting SACC with HUSACCT on workspace: " + workspacePath);
-//        System.setProperty("java.awt.headless", "true");
         printStartupConfiguration();
         validateConfiguration();
 
@@ -126,7 +126,7 @@ public class SaccChecker extends AbstractMojo {
     }
 
     private void executeComplianceCheck() {
-        ExternalServiceProvider externalServiceProvider = ExternalServiceProvider.getInstance();
+        ExternalServiceProvider externalServiceProvider = ExternalServiceProvider.getInstance(getLog4JProperties());
         violationReport = externalServiceProvider.performSoftwareArchitectureComplianceCheck(saccCommandDTO);
     }
 
@@ -138,6 +138,23 @@ public class SaccChecker extends AbstractMojo {
     private boolean areTooManyViolations() {
         assert isSourceCodeAnalysedSuccessfully();
         return maxViolations != null && violationReport.getNrOfAllCurrentViolations() > maxViolations;
+    }
+
+
+    private Properties getLog4JProperties() {
+        Properties properties = new Properties();
+        properties.setProperty("log4j.rootLogger", "debug, stdout, R");
+        properties.setProperty("log4j.appender.stdout", "org.apache.log4j.ConsoleAppender");
+        properties.setProperty("log4j.appender.stdout.layout", "org.apache.log4j.PatternLayout");
+        properties.setProperty("log4j.appender.stdout.layout.ConversionPattern", "%5p [%t] (%F:%L) - %m%n");
+        properties.setProperty("log4j.appender.R", "org.apache.log4j.RollingFileAppender");
+        properties.setProperty("log4j.appender.R.File", "log/husacct.log");
+        properties.setProperty("log4j.appender.R.MaxFileSize", "100KB");
+        properties.setProperty("log4j.appender.R.MaxBackupIndex", "1");
+        properties.setProperty("log4j.appender.R.layout", "org.apache.log4j.PatternLayout");
+        properties.setProperty("log4j.appender.R.layout.ConversionPattern", "%p %t %c - %m%n");
+
+        return properties;
     }
 
 

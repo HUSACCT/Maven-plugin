@@ -6,7 +6,7 @@
 
     <groupId>nl.hu.husacct.mavenplugin</groupId>
     <artifactId>husacct-maven-plugin</artifactId>
-    <version>1.0beta-SNAPSHOT</version>
+    <version>1.0-SNAPSHOT</version>
     <packaging>maven-plugin</packaging>
 
     <name>HUSACCT Maven Plugin</name>
@@ -20,7 +20,7 @@
         <dependency>
             <groupId>nl.hu.husacct.husacct</groupId>
             <artifactId>husacct</artifactId>
-            <version>5.3.1</version>
+            <version>5.3.2</version>
         </dependency>
         <dependency>
             <groupId>org.apache.maven</groupId>

@@ -31,7 +31,7 @@
             <plugin>
                 <groupId>nl.hu.husacct.mavenplugin</groupId>
                 <artifactId>husacct-maven-plugin</artifactId>
-                <version>0.1-SNAPSHOT</version>
+                <version>1.0-SNAPSHOT</version>
                 <configuration>
                     <workspacePath>src/test/resources/game31-invallidarchitecture/Game31_Workspace_HUSACCT.xml</workspacePath>
                     <sourcePaths>
