@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Form style="Swing" ide="eclipse" builder="jigloo" version="2.7.2">
+<NonVisualComponents>
+		<Component class="java.lang.Object" name="object1">
+			<Constraints>
+				<LayoutConstraint/>
+			</Constraints>
+			<Properties>
+			</Properties>
+		</Component></NonVisualComponents>
+	<Component class="javax.swing.JFrame" name="ScoreOverzichtFrame">
+		<Constraints>
+			<LayoutConstraint/>
+		</Constraints>
+		<Layout class="Border">
+			<Property name="hgap" type="int" value="0"/>
+			<Property name="vgap" type="int" value="0"/>
+		</Layout>
+		<Events>
+		</Events>
+		<Properties>
+			<Property name="size" type="Dimension">
+				<Dimension value="[614, 408]"/>
+			</Property>
+			<Property name="bounds" type="Rectangle">
+				<Rectangle value="[0, 0, 614, 408]"/>
+			</Property>
+		</Properties>
+		<SubComponents>
+			<Component class="javax.swing.JLabel" name="jLabel1">
+				<Constraints>
+					<Constraint direction="North"/>
+					<LayoutConstraint>
+						<Property name="direction" type="String" value="North"/>
+					</LayoutConstraint>
+				</Constraints>
+				<Layout class="Absolute">
+				</Layout>
+				<Events>
+				</Events>
+				<Properties>
+					<Property name="text" type="String" value="Scoreoverzicht voor alle rondes"/>
+					<Property name="autoscrolls" type="boolean" value="true"/>
+					<Property name="bounds" type="Rectangle">
+						<Rectangle value="[0, 0, 614, 16]"/>
+					</Property>
+				</Properties>
+			</Component>
+			<Component class="javax.swing.JTextArea" name="jTextArea1">
+				<Constraints>
+					<Constraint direction="Center"/>
+					<LayoutConstraint>
+						<Property name="direction" type="String" value="Center"/>
+					</LayoutConstraint>
+				</Constraints>
+				<Events>
+				</Events>
+				<Properties>
+				</Properties>
+			</Component>
+		</SubComponents>
+	</Component>
+</Form>

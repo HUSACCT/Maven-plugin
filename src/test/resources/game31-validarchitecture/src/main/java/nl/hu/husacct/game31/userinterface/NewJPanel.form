@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Form style="Swing" ide="eclipse" builder="jigloo" version="2.7.2">
+<NonVisualComponents>
+		<Component class="java.lang.Object" name="object1">
+			<Constraints>
+				<LayoutConstraint/>
+			</Constraints>
+			<Properties>
+			</Properties>
+		</Component></NonVisualComponents>
+	<Component class="javax.swing.JPanel" name="NewJPanel">
+		<Constraints>
+			<LayoutConstraint/>
+		</Constraints>
+		<Layout class="Absolute">
+		</Layout>
+		<Events>
+		</Events>
+		<Properties>
+			<Property name="preferredSize" type="Dimension">
+				<Dimension value="[341, 236]"/>
+			</Property>
+		</Properties>
+		<SubComponents>
+			<Component class="javax.swing.JButton" name="jButton1">
+				<Constraints>
+					<LayoutConstraint/>
+				</Constraints>
+				<Events>
+				</Events>
+				<Properties>
+					<Property name="text" type="String" value=""/>
+					<Property name="icon" type="Icon">
+						<Icon name="\userInterface\images\theButtonOff.png"/>
+					</Property>
+					<Property name="iconTextGap" type="int" value="0"/>
+					<Property name="borderPainted" type="boolean" value="false"/>
+					<Property name="margin" type="Insets">
+						<Insets value="[0, 0, 0, 0]"/>
+					</Property>
+					<Property name="pressedIcon" type="Icon">
+						<Icon name="\userInterface\images\theButtonPress.png"/>
+					</Property>
+					<Property name="rolloverEnabled" type="boolean" value="false"/>
+					<Property name="rolloverIcon" type="Icon">
+						<Icon name="\userInterface\images\theButtonOn.png"/>
+					</Property>
+					<Property name="preferredSize" type="Dimension">
+						<Dimension value="[60, 25]"/>
+					</Property>
+					<Property name="opaque" type="boolean" value="false"/>
+					<Property name="bounds" type="Rectangle">
+						<Rectangle value="[104, 83, 60, 25]"/>
+					</Property>
+				</Properties>
+				<SubComponents>
+					<Component class="javax.swing.JLabel" name="deLabel">
+						<Constraints>
+							<LayoutConstraint/>
+						</Constraints>
+						<Events>
+						</Events>
+						<Properties>
+							<Property name="text" type="String" value="Ok"/>
+						</Properties>
+					</Component>
+				</SubComponents>
+			</Component>
+		</SubComponents>
+	</Component>
+</Form>

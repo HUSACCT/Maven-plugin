@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report>
+  <projectName>Game31Workspace</projectName>
+  <version>1.0</version>
+  <totalViolations>15</totalViolations>
+  <violationsGeneratedOn>29-03-2017 13:05:49</violationsGeneratedOn>
+  <violationsPerSeverity>
+    <Low>0</Low>
+    <Medium>0</Medium>
+    <High>15</High>
+  </violationsPerSeverity>
+  <violations>
+    <!--from = path of from-class-->
+    <!--to = path of to-class-->
+    <!--line = Line in the source of the fromClass that contains the violating code construct-->
+    <!--depType = DependencyType (for dependency-related rule types) or visibilityType, etc.-->
+    <!--depSubType = DependencySubType (for dependency-related rule types)-->
+    <!--indirect = Direct/indirect dependency (for dependency-related rule types)-->
+    <!--severity = Key of the severity-->
+    <!--message = Short explanation of the violated rule-->
+    <!--The following three identify the violated rule: ruleTypeKey + logicalModuleFrom + logicalModuleTo-->
+    <!--ruleType = Identifier of RuleType; the type of violated rule-->
+    <!--fromMod = ModuleFrom of the violated rule; not of the from-to software units-->
+    <!--toMod = ModuleTo of the violated rule; not of the from-to software units-->
+    <violation>
+      <from>main.java.nl.hu.husacct.game31.domein.Spel</from>
+      <to>main.java.nl.hu.husacct.game31.userinterface.MainFrame</to>
+      <line>110</line>
+      <depType>Reference</depType>
+      <depSubType>Type Cast</depSubType>
+      <indirect>false</indirect>
+      <severity>High</severity>
+      <message>Layer Domain is not allowed to make use of a higher level layer (back call)</message>
+      <ruleType>IsNotAllowedToMakeBackCall</ruleType>
+      <fromMod>Domain</fromMod>
+      <toMod>Domain</toMod>
+    </violation>
+    <violation>
+      <from>main.java.nl.hu.husacct.game31.domein.Spel</from>
+      <to>main.java.nl.hu.husacct.game31.userinterface.MainFrame</to>
+      <line>111</line>
+      <depType>Declaration</depType>
+      <depSubType>Local Variable</depSubType>
+      <indirect>false</indirect>
+      <severity>High</severity>
+      <message>Layer Domain is not allowed to make use of a higher level layer (back call)</message>
+      <ruleType>IsNotAllowedToMakeBackCall</ruleType>
+      <fromMod>Domain</fromMod>
+      <toMod>Domain</toMod>
+    </violation>
+    <violation>
+      <from>main.java.nl.hu.husacct.game31.domein.Spel</from>
+      <to>main.java.nl.hu.husacct.game31.userinterface.MainFrame</to>
+      <line>111</line>
+      <depType>Reference</depType>
+      <depSubType>Type Cast</depSubType>
+      <indirect>false</indirect>
+      <severity>High</severity>
+      <message>Layer Domain is not allowed to make use of a higher level layer (back call)</message>
+      <ruleType>IsNotAllowedToMakeBackCall</ruleType>
+      <fromMod>Domain</fromMod>
+      <toMod>Domain</toMod>
+    </violation>
+    <violation>
+      <from>main.java.nl.hu.husacct.game31.domein.Spel</from>
+      <to>main.java.nl.hu.husacct.game31.userinterface.MainFrame</to>
+      <line>112</line>
+      <depType>Call</depType>
+      <depSubType>Instance Method</depSubType>
+      <indirect>false</indirect>
+      <severity>High</severity>
+      <message>Layer Domain is not allowed to make use of a higher level layer (back call)</message>
+      <ruleType>IsNotAllowedToMakeBackCall</ruleType>
+      <fromMod>Domain</fromMod>
+      <toMod>Domain</toMod>
+    </violation>
+    <violation>
+      <from>main.java.nl.hu.husacct.game31.domein.Spel</from>
+      <to>main.java.nl.hu.husacct.game31.userinterface.MainFrame</to>
+      <line>63</line>
+      <depType>Reference</depType>
+      <depSubType>Type Cast</depSubType>
+      <indirect>false</indirect>
+      <severity>High</severity>
+      <message>Layer Domain is not allowed to make use of a higher level layer (back call)</message>
+      <ruleType>IsNotAllowedToMakeBackCall</ruleType>
+      <fromMod>Domain</fromMod>
+      <toMod>Domain</toMod>
+    </violation>
+    <violation>
+      <from>main.java.nl.hu.husacct.game31.domein.Spel</from>
+      <to>main.java.nl.hu.husacct.game31.userinterface.MainFrame</to>
+      <line>64</line>
+      <depType>Declaration</depType>
+      <depSubType>Local Variable</depSubType>
+      <indirect>false</indirect>
+      <severity>High</severity>
+      <message>Layer Domain is not allowed to make use of a higher level layer (back call)</message>
+      <ruleType>IsNotAllowedToMakeBackCall</ruleType>
+      <fromMod>Domain</fromMod>
+      <toMod>Domain</toMod>
+    </violation>
+    <violation>
+      <from>main.java.nl.hu.husacct.game31.domein.Spel</from>
+      <to>main.java.nl.hu.husacct.game31.userinterface.MainFrame</to>
+      <line>64</line>
+      <depType>Reference</depType>
+      <depSubType>Type Cast</depSubType>
+      <indirect>false</indirect>
+      <severity>High</severity>
+      <message>Layer Domain is not allowed to make use of a higher level layer (back call)</message>
+      <ruleType>IsNotAllowedToMakeBackCall</ruleType>
+      <fromMod>Domain</fromMod>
+      <toMod>Domain</toMod>
+    </violation>
+    <violation>
+      <from>main.java.nl.hu.husacct.game31.domein.Spel</from>
+      <to>main.java.nl.hu.husacct.game31.userinterface.MainFrame</to>
+      <line>65</line>
+      <depType>Call</depType>
+      <depSubType>Instance Method</depSubType>
+      <indirect>false</indirect>
+      <severity>High</severity>
+      <message>Layer Domain is not allowed to make use of a higher level layer (back call)</message>
+      <ruleType>IsNotAllowedToMakeBackCall</ruleType>
+      <fromMod>Domain</fromMod>
+      <toMod>Domain</toMod>
+    </violation>
+    <violation>
+      <from>main.java.nl.hu.husacct.game31.domein.Spel</from>
+      <to>main.java.nl.hu.husacct.game31.userinterface.MainFrame</to>
+      <line>8</line>
+      <depType>Import</depType>
+      <depSubType />
+      <indirect>false</indirect>
+      <severity>High</severity>
+      <message>Layer Domain is not allowed to make use of a higher level layer (back call)</message>
+      <ruleType>IsNotAllowedToMakeBackCall</ruleType>
+      <fromMod>Domain</fromMod>
+      <toMod>Domain</toMod>
+    </violation>
+    <violation>
+      <from>main.java.nl.hu.husacct.game31.domein.Spel</from>
+      <to>main.java.nl.hu.husacct.game31.userinterface.MainFrame</to>
+      <line>96</line>
+      <depType>Declaration</depType>
+      <depSubType>Local Variable</depSubType>
+      <indirect>false</indirect>
+      <severity>High</severity>
+      <message>Layer Domain is not allowed to make use of a higher level layer (back call)</message>
+      <ruleType>IsNotAllowedToMakeBackCall</ruleType>
+      <fromMod>Domain</fromMod>
+      <toMod>Domain</toMod>
+    </violation>
+    <violation>
+      <from>main.java.nl.hu.husacct.game31.domein.Spel</from>
+      <to>main.java.nl.hu.husacct.game31.userinterface.MainFrame</to>
+      <line>96</line>
+      <depType>Reference</depType>
+      <depSubType>Type Cast</depSubType>
+      <indirect>false</indirect>
+      <severity>High</severity>
+      <message>Layer Domain is not allowed to make use of a higher level layer (back call)</message>
+      <ruleType>IsNotAllowedToMakeBackCall</ruleType>
+      <fromMod>Domain</fromMod>
+      <toMod>Domain</toMod>
+    </violation>
+    <violation>
+      <from>main.java.nl.hu.husacct.game31.domein.Spel</from>
+      <to>main.java.nl.hu.husacct.game31.userinterface.MainFrame</to>
+      <line>97</line>
+      <depType>Call</depType>
+      <depSubType>Method</depSubType>
+      <indirect>false</indirect>
+      <severity>High</severity>
+      <message>Layer Domain is not allowed to make use of a higher level layer (back call)</message>
+      <ruleType>IsNotAllowedToMakeBackCall</ruleType>
+      <fromMod>Domain</fromMod>
+      <toMod>Domain</toMod>
+    </violation>
+    <violation>
+      <from>main.java.nl.hu.husacct.game31.domein.Spel</from>
+      <to>main.java.nl.hu.husacct.game31.userinterface.MainFrame</to>
+      <line>98</line>
+      <depType>Call</depType>
+      <depSubType>Constructor</depSubType>
+      <indirect>false</indirect>
+      <severity>High</severity>
+      <message>Layer Domain is not allowed to make use of a higher level layer (back call)</message>
+      <ruleType>IsNotAllowedToMakeBackCall</ruleType>
+      <fromMod>Domain</fromMod>
+      <toMod>Domain</toMod>
+    </violation>
+    <violation>
+      <from>main.java.nl.hu.husacct.game31.domein.Spel</from>
+      <to>main.java.nl.hu.husacct.game31.userinterface.ScoreOverzichtFrame</to>
+      <line>99</line>
+      <depType>Call</depType>
+      <depSubType>Constructor</depSubType>
+      <indirect>false</indirect>
+      <severity>High</severity>
+      <message>Layer Domain is not allowed to make use of a higher level layer (back call)</message>
+      <ruleType>IsNotAllowedToMakeBackCall</ruleType>
+      <fromMod>Domain</fromMod>
+      <toMod>Domain</toMod>
+    </violation>
+    <violation>
+      <from>main.java.nl.hu.husacct.game31.domein.Spel</from>
+      <to>main.java.nl.hu.husacct.game31.userinterface.ScoreOverzichtFrame</to>
+      <line>9</line>
+      <depType>Import</depType>
+      <depSubType />
+      <indirect>false</indirect>
+      <severity>High</severity>
+      <message>Layer Domain is not allowed to make use of a higher level layer (back call)</message>
+      <ruleType>IsNotAllowedToMakeBackCall</ruleType>
+      <fromMod>Domain</fromMod>
+      <toMod>Domain</toMod>
+    </violation>
+  </violations>
+</report>

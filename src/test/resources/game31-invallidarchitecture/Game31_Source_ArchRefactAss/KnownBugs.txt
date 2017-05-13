@@ -1,0 +1,4 @@
+1: totaalKaarten is niet groot genoeg bij een volgende ronde -> Tafel bevat niet genoeg kaarten
+2: Volgende gebruiker word over geslagen/niet aangeroepen
+3: Bot moet signaal geven aan GUI dat ie zijn zet heeft gedaan
+4: GUI moet aangeven wanneer een nieuwe ronde wordt gestart
