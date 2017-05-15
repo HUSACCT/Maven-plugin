@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Form style="Swing" ide="eclipse" builder="jigloo" version="2.7.2">
+<NonVisualComponents>
+		<Component class="java.lang.Object" name="object1">
+			<Constraints>
+				<LayoutConstraint/>
+			</Constraints>
+			<Properties>
+			</Properties>
+		</Component></NonVisualComponents>
+	<Component class="javax.swing.JFrame" name="SetupFrame">
+		<Constraints>
+			<LayoutConstraint/>
+		</Constraints>
+		<Layout class="Absolute">
+		</Layout>
+		<Events>
+		</Events>
+		<Properties>
+			<Property name="defaultCloseOperation" type="int" value="2"/>
+			<Property name="defaultLookAndFeelDecorated" type="boolean" value="false"/>
+			<Property name="resizable" type="boolean" value="false"/>
+			<Property name="title" type="String" value="Nieuw Spel"/>
+			<Property name="undecorated" type="boolean" value="false"/>
+			<Property name="size" type="Dimension">
+				<Dimension value="[400, 300]"/>
+			</Property>
+			<Property name="enabled" type="boolean" value="true"/>
+		</Properties>
+		<SubComponents>
+			<Component class="javax.swing.JPanel" name="items">
+				<Constraints>
+					<LayoutConstraint/>
+				</Constraints>
+				<Layout class="Absolute">
+				</Layout>
+				<Events>
+				</Events>
+				<Properties>
+					<Property name="toolTipText" type="String" value="Stel de game eigenschappen in"/>
+					<Property name="preferredSize" type="Dimension">
+						<Dimension value="[400, 300]"/>
+					</Property>
+					<Property name="opaque" type="boolean" value="false"/>
+					<Property name="bounds" type="Rectangle">
+						<Rectangle value="[0, 0, 400, 300]"/>
+					</Property>
+				</Properties>
+				<SubComponents>
+					<Component class="javax.swing.JPanel" name="instellingen">
+						<Constraints>
+							<LayoutConstraint/>
+						</Constraints>
+						<Layout class="Absolute">
+						</Layout>
+						<Events>
+						</Events>
+						<Properties>
+							<Property name="visible" type="boolean" value="true"/>
+							<Property name="minimumSize" type="Dimension">
+								<Dimension value="[355, 225]"/>
+							</Property>
+							<Property name="preferredSize" type="Dimension">
+								<Dimension value="[355, 225]"/>
+							</Property>
+							<Property name="alignmentX" type="float" value="0.0"/>
+							<Property name="alignmentY" type="float" value="0.0"/>
+							<Property name="border" class="javax.swing.border.LineBorder">
+								<Property name="lineColor" type="Color">
+								<Color red="0" green="0" blue="0"/>
+							</Property>
+								<Property name="thickness" type="int" value="1"/>
+								<Property name="roundedCorners" type="boolean" value="false"/>
+							</Property>
+							<Property name="debugGraphicsOptions" type="int" value="4"/>
+							<Property name="doubleBuffered" type="boolean" value="false"/>
+							<Property name="maximumSize" type="Dimension">
+								<Dimension value="[355, 225]"/>
+							</Property>
+							<Property name="opaque" type="boolean" value="false"/>
+							<Property name="bounds" type="Rectangle">
+								<Rectangle value="[10, 29, 355, 225]"/>
+							</Property>
+						</Properties>
+						<SubComponents>
+							<Component class="javax.swing.JLabel" name="instellingenLabel">
+								<Constraints>
+									<LayoutConstraint/>
+								</Constraints>
+								<Events>
+								</Events>
+								<Properties>
+									<Property name="text" type="String" value="Instellingen"/>
+									<Property name="horizontalAlignment" type="int" value="2"/>
+									<Property name="horizontalTextPosition" type="int" value="2"/>
+									<Property name="verticalAlignment" type="int" value="0"/>
+									<Property name="verticalTextPosition" type="int" value="0"/>
+									<Property name="visible" type="boolean" value="true"/>
+									<Property name="font" type="Font">
+										<Font name="Verdana" size="12" style="1" strikeout="false" underline="false"/>
+									</Property>
+									<Property name="preferredSize" type="Dimension">
+										<Dimension value="[337, 20]"/>
+									</Property>
+									<Property name="bounds" type="Rectangle">
+										<Rectangle value="[8, 8, 337, 20]"/>
+									</Property>
+								</Properties>
+							</Component>
+							<Component class="javax.swing.JLabel" name="titelPicture">
+								<Constraints>
+									<LayoutConstraint/>
+								</Constraints>
+								<Events>
+								</Events>
+								<Properties>
+									<Property name="icon" type="Icon">
+										<Icon name="\userInterface\images\setupInstellingenTitelPic.png"/>
+									</Property>
+									<Property name="iconTextGap" type="int" value="0"/>
+									<Property name="preferredSize" type="Dimension">
+										<Dimension value="[354, 35]"/>
+									</Property>
+									<Property name="alignmentY" type="float" value="0.0"/>
+									<Property name="bounds" type="Rectangle">
+										<Rectangle value="[1, 1, 354, 35]"/>
+									</Property>
+								</Properties>
+							</Component>
+							<Component class="javax.swing.JPanel" name="algemeneSettings">
+								<Constraints>
+									<LayoutConstraint/>
+								</Constraints>
+								<Layout class="Absolute">
+								</Layout>
+								<Events>
+								</Events>
+								<Properties>
+									<Property name="preferredSize" type="Dimension">
+										<Dimension value="[336, 72]"/>
+									</Property>
+									<Property name="border" class="javax.swing.border.TitledBorder">
+										<Property name="border" class="javax.swing.border.LineBorder">
+											<Property name="lineColor" type="Color">
+											<Color red="0" green="0" blue="0"/>
+										</Property>
+											<Property name="thickness" type="int" value="1"/>
+											<Property name="roundedCorners" type="boolean" value="false"/>
+										</Property>
+										<Property name="title" type="String" value="Algemeen"/>
+										<Property name="titleJustification" type="int" value="4"/>
+										<Property name="titlePosition" type="int" value="2"/>
+										<Property name="titleFont" type="Font">
+										<Font name="Dialog" size="12" style="1" strikeout="false" underline="false"/>
+									</Property>
+										<Property name="titleColor" type="Color">
+										<Color red="0" green="0" blue="0"/>
+									</Property>
+									</Property>
+									<Property name="opaque" type="boolean" value="false"/>
+									<Property name="bounds" type="Rectangle">
+										<Rectangle value="[8, 44, 336, 72]"/>
+									</Property>
+								</Properties>
+								<SubComponents>
+									<Component class="javax.swing.JLabel" name="aantalSpelersLabel">
+										<Constraints>
+											<LayoutConstraint/>
+										</Constraints>
+										<Events>
+										</Events>
+										<Properties>
+											<Property name="text" type="String" value="Aantal Spelers:"/>
+											<Property name="preferredSize" type="Dimension">
+												<Dimension value="[165, 20]"/>
+											</Property>
+											<Property name="bounds" type="Rectangle">
+												<Rectangle value="[10, 21, 165, 20]"/>
+											</Property>
+										</Properties>
+									</Component>
+									<Component class="javax.swing.JLabel" name="aantalFicesPerSpeler">
+										<Constraints>
+											<LayoutConstraint/>
+										</Constraints>
+										<Events>
+										</Events>
+										<Properties>
+											<Property name="text" type="String" value="Aantal fices per speler:"/>
+											<Property name="preferredSize" type="Dimension">
+												<Dimension value="[148, 20]"/>
+											</Property>
+											<Property name="bounds" type="Rectangle">
+												<Rectangle value="[10, 44, 148, 20]"/>
+											</Property>
+										</Properties>
+									</Component>
+									<Component class="javax.swing.JComboBox" name="aantalSpelersCombo">
+										<Constraints>
+											<LayoutConstraint/>
+										</Constraints>
+										<Events>
+										</Events>
+										<Properties>
+											<Property name="preferredSize" type="Dimension">
+												<Dimension value="[58, 20]"/>
+											</Property>
+											<Property name="bounds" type="Rectangle">
+												<Rectangle value="[259, 19, 58, 20]"/>
+											</Property>
+										</Properties>
+									</Component>
+									<Component class="javax.swing.JComboBox" name="aantalFicesCombo">
+										<Constraints>
+											<LayoutConstraint/>
+										</Constraints>
+										<Events>
+										</Events>
+										<Properties>
+											<Property name="preferredSize" type="Dimension">
+												<Dimension value="[58, 20]"/>
+											</Property>
+											<Property name="bounds" type="Rectangle">
+												<Rectangle value="[259, 44, 58, 20]"/>
+											</Property>
+										</Properties>
+									</Component>
+								</SubComponents>
+							</Component>
+							<Component class="javax.swing.JPanel" name="extraInstellingenPanel">
+								<Constraints>
+									<LayoutConstraint/>
+								</Constraints>
+								<Layout class="Absolute">
+								</Layout>
+								<Events>
+								</Events>
+								<Properties>
+									<Property name="preferredSize" type="Dimension">
+										<Dimension value="[336, 72]"/>
+									</Property>
+									<Property name="border" class="javax.swing.border.TitledBorder">
+										<Property name="border" class="javax.swing.border.LineBorder">
+											<Property name="lineColor" type="Color">
+											<Color red="0" green="0" blue="0"/>
+										</Property>
+											<Property name="thickness" type="int" value="1"/>
+											<Property name="roundedCorners" type="boolean" value="false"/>
+										</Property>
+										<Property name="title" type="String" value="Extra's"/>
+										<Property name="titleJustification" type="int" value="4"/>
+										<Property name="titlePosition" type="int" value="2"/>
+										<Property name="titleFont" type="Font">
+										<Font name="Dialog" size="12" style="1" strikeout="false" underline="false"/>
+									</Property>
+										<Property name="titleColor" type="Color">
+										<Color red="0" green="0" blue="0"/>
+									</Property>
+									</Property>
+									<Property name="opaque" type="boolean" value="false"/>
+									<Property name="size" type="Dimension">
+										<Dimension value="[336, 72]"/>
+									</Property>
+									<Property name="bounds" type="Rectangle">
+										<Rectangle value="[8, 124, 336, 72]"/>
+									</Property>
+								</Properties>
+								<SubComponents>
+									<Component class="javax.swing.JLabel" name="opHetEzeltjeSpelenLabel">
+										<Constraints>
+											<LayoutConstraint/>
+										</Constraints>
+										<Events>
+										</Events>
+										<Properties>
+											<Property name="text" type="String" value="Op het ezeltje spelen:"/>
+											<Property name="preferredSize" type="Dimension">
+												<Dimension value="[162, 20]"/>
+											</Property>
+											<Property name="bounds" type="Rectangle">
+												<Rectangle value="[10, 19, 162, 20]"/>
+											</Property>
+										</Properties>
+									</Component>
+									<Component class="javax.swing.JLabel" name="metAflegStokLabel">
+										<Constraints>
+											<LayoutConstraint/>
+										</Constraints>
+										<Events>
+										</Events>
+										<Properties>
+											<Property name="text" type="String" value="Met aflegstok spelen:"/>
+											<Property name="preferredSize" type="Dimension">
+												<Dimension value="[134, 20]"/>
+											</Property>
+											<Property name="bounds" type="Rectangle">
+												<Rectangle value="[10, 40, 134, 20]"/>
+											</Property>
+										</Properties>
+									</Component>
+									<Component class="javax.swing.JCheckBox" name="opHetEzeltjeCheck">
+										<Constraints>
+											<LayoutConstraint/>
+										</Constraints>
+										<Events>
+										</Events>
+										<Properties>
+											<Property name="enabled" type="boolean" value="false"/>
+											<Property name="preferredSize" type="Dimension">
+												<Dimension value="[20, 20]"/>
+											</Property>
+											<Property name="border" class="javax.swing.border.LineBorder">
+												<Property name="lineColor" type="Color">
+												<Color red="0" green="0" blue="0"/>
+											</Property>
+												<Property name="thickness" type="int" value="1"/>
+												<Property name="roundedCorners" type="boolean" value="false"/>
+											</Property>
+											<Property name="opaque" type="boolean" value="false"/>
+											<Property name="bounds" type="Rectangle">
+												<Rectangle value="[306, 19, 20, 20]"/>
+											</Property>
+										</Properties>
+									</Component>
+									<Component class="javax.swing.JCheckBox" name="metAflegstokcheck">
+										<Constraints>
+											<LayoutConstraint/>
+										</Constraints>
+										<Events>
+										</Events>
+										<Properties>
+											<Property name="enabled" type="boolean" value="false"/>
+											<Property name="preferredSize" type="Dimension">
+												<Dimension value="[20, 20]"/>
+											</Property>
+											<Property name="border" class="javax.swing.border.LineBorder">
+												<Property name="lineColor" type="Color">
+												<Color red="0" green="0" blue="0"/>
+											</Property>
+												<Property name="thickness" type="int" value="1"/>
+												<Property name="roundedCorners" type="boolean" value="false"/>
+											</Property>
+											<Property name="opaque" type="boolean" value="false"/>
+											<Property name="bounds" type="Rectangle">
+												<Rectangle value="[306, 40, 20, 20]"/>
+											</Property>
+										</Properties>
+									</Component>
+								</SubComponents>
+							</Component>
+						</SubComponents>
+					</Component>
+					<Component class="javax.swing.JLabel" name="transparantBG">
+						<Constraints>
+							<LayoutConstraint/>
+						</Constraints>
+						<Events>
+						</Events>
+						<Properties>
+							<Property name="icon" type="Icon">
+								<Icon name="\userInterface\images\transparant.png"/>
+							</Property>
+							<Property name="preferredSize" type="Dimension">
+								<Dimension value="[355, 225]"/>
+							</Property>
+							<Property name="alignmentY" type="float" value="0.0"/>
+							<Property name="bounds" type="Rectangle">
+								<Rectangle value="[10, 29, 355, 225]"/>
+							</Property>
+						</Properties>
+					</Component>
+					<Component class="javax.swing.JButton" name="okButton">
+						<Constraints>
+							<LayoutConstraint/>
+						</Constraints>
+						<Events>
+							<EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" handler="okButtonActionPerformed"/>
+						</Events>
+						<Properties>
+							<Property name="text" type="String" value=""/>
+							<Property name="preferredSize" type="Dimension">
+								<Dimension value="[60, 20]"/>
+							</Property>
+							<Property name="border" class="javax.swing.border.EtchedBorder">
+								<Property name="etchType" type="int" value="1"/>
+								<Property name="highlightColor" value="null"/>
+								<Property name="shadowColor" value="null"/>
+							</Property>
+							<Property name="opaque" type="boolean" value="false"/>
+							<Property name="bounds" type="Rectangle">
+								<Rectangle value="[264, 266, 60, 20]"/>
+							</Property>
+						</Properties>
+						<SubComponents>
+							<Component class="javax.swing.JLabel" name="okBG">
+								<Constraints>
+									<LayoutConstraint/>
+								</Constraints>
+								<Events>
+								</Events>
+								<Properties>
+									<Property name="icon" type="Icon">
+										<Icon name="\userInterface\images\transparant.png"/>
+									</Property>
+								</Properties>
+								<SubComponents>
+									<Component class="javax.swing.JLabel" name="okLabel">
+										<Constraints>
+											<LayoutConstraint/>
+										</Constraints>
+										<Events>
+										</Events>
+										<Properties>
+											<Property name="text" type="String" value="OK"/>
+											<Property name="preferredSize" type="Dimension">
+												<Dimension value="[22, 18]"/>
+											</Property>
+											<Property name="bounds" type="Rectangle">
+												<Rectangle value="[19, -1, 22, 18]"/>
+											</Property>
+										</Properties>
+									</Component>
+								</SubComponents>
+							</Component>
+						</SubComponents>
+					</Component>
+				</SubComponents>
+			</Component>
+			<Component class="javax.swing.JLabel" name="backgroundPicture">
+				<Constraints>
+					<LayoutConstraint/>
+				</Constraints>
+				<Events>
+				</Events>
+				<Properties>
+					<Property name="icon" type="Icon">
+						<Icon name="\userInterface\images\setupBackground.jpg"/>
+					</Property>
+					<Property name="preferredSize" type="Dimension">
+						<Dimension value="[400, 300]"/>
+					</Property>
+					<Property name="bounds" type="Rectangle">
+						<Rectangle value="[0, 0, 400, 300]"/>
+					</Property>
+				</Properties>
+			</Component>
+		</SubComponents>
+	</Component>
+</Form>

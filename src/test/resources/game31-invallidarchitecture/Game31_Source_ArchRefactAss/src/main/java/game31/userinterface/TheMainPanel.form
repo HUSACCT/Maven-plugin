@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Form style="Swing" ide="eclipse" builder="jigloo" version="2.7.2">
+<NonVisualComponents>
+		<Component class="java.lang.Object" name="object1">
+			<Constraints>
+				<LayoutConstraint/>
+			</Constraints>
+			<Properties>
+			</Properties>
+		</Component></NonVisualComponents>
+	<Component class="javax.swing.JPanel" name="TheMainPanel">
+		<Constraints>
+			<LayoutConstraint/>
+		</Constraints>
+		<Layout class="Absolute">
+		</Layout>
+		<Events>
+		</Events>
+		<Properties>
+			<Property name="preferredSize" type="Dimension">
+				<Dimension value="[700, 525]"/>
+			</Property>
+			<Property name="opaque" type="boolean" value="false"/>
+			<Property name="bounds" type="Rectangle">
+				<Rectangle value="[0, 0, 700, 525]"/>
+			</Property>
+		</Properties>
+		<SubComponents>
+			<Component class="javax.swing.JPanel" name="mijnHandPanel">
+				<Constraints>
+					<LayoutConstraint/>
+				</Constraints>
+				<Layout class="Flow">
+					<Property name="alignment" type="int" value="1"/>
+					<Property name="hgap" type="int" value="5"/>
+					<Property name="vgap" type="int" value="5"/>
+				</Layout>
+				<Events>
+				</Events>
+				<Properties>
+					<Property name="preferredSize" type="Dimension">
+						<Dimension value="[421, 195]"/>
+					</Property>
+					<Property name="opaque" type="boolean" value="false"/>
+					<Property name="bounds" type="Rectangle">
+						<Rectangle value="[233, 20, 421, 195]"/>
+					</Property>
+				</Properties>
+			</Component>
+			<Component class="javax.swing.JPanel" name="deTafelPanel">
+				<Constraints>
+					<LayoutConstraint/>
+				</Constraints>
+				<Layout class="Flow">
+					<Property name="alignment" type="int" value="1"/>
+					<Property name="hgap" type="int" value="5"/>
+					<Property name="vgap" type="int" value="5"/>
+				</Layout>
+				<Events>
+				</Events>
+				<Properties>
+					<Property name="preferredSize" type="Dimension">
+						<Dimension value="[421, 195]"/>
+					</Property>
+					<Property name="opaque" type="boolean" value="false"/>
+					<Property name="bounds" type="Rectangle">
+						<Rectangle value="[239, 296, 421, 195]"/>
+					</Property>
+				</Properties>
+			</Component>
+			<Component class="javax.swing.JPanel" name="knoppenPanel">
+				<Constraints>
+					<LayoutConstraint/>
+				</Constraints>
+				<Events>
+				</Events>
+				<Properties>
+					<Property name="visible" type="boolean" value="true"/>
+					<Property name="preferredSize" type="Dimension">
+						<Dimension value="[500, 50]"/>
+					</Property>
+					<Property name="opaque" type="boolean" value="false"/>
+					<Property name="bounds" type="Rectangle">
+						<Rectangle value="[200, 229, 500, 50]"/>
+					</Property>
+				</Properties>
+				<SubComponents>
+					<Component class="javax.swing.JButton" name="passenButton">
+						<Constraints>
+							<LayoutConstraint/>
+						</Constraints>
+						<Events>
+							<EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" handler="passenButtonActionPerformed"/>
+						</Events>
+						<Properties>
+							<Property name="enabled" type="boolean" value="false"/>
+							<Property name="text" type="String" value="Passen"/>
+							<Property name="preferredSize" type="Dimension">
+								<Dimension value="[79, 26]"/>
+							</Property>
+							<Property name="border" class="javax.swing.border.LineBorder">
+								<Property name="lineColor" type="Color">
+								<Color red="0" green="0" blue="0"/>
+							</Property>
+								<Property name="thickness" type="int" value="1"/>
+								<Property name="roundedCorners" type="boolean" value="false"/>
+							</Property>
+							<Property name="opaque" type="boolean" value="false"/>
+							<Property name="bounds" type="Rectangle">
+								<Rectangle value="[71, 5, 79, 26]"/>
+							</Property>
+						</Properties>
+					</Component>
+					<Component class="javax.swing.JButton" name="overslaanButton">
+						<Constraints>
+							<LayoutConstraint/>
+						</Constraints>
+						<Events>
+							<EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" handler="overslaanButtonActionPerformed"/>
+						</Events>
+						<Properties>
+							<Property name="enabled" type="boolean" value="false"/>
+							<Property name="text" type="String" value="Overslaan"/>
+							<Property name="preferredSize" type="Dimension">
+								<Dimension value="[81, 26]"/>
+							</Property>
+							<Property name="border" class="javax.swing.border.LineBorder">
+								<Property name="lineColor" type="Color">
+								<Color red="0" green="0" blue="0"/>
+							</Property>
+								<Property name="thickness" type="int" value="1"/>
+								<Property name="roundedCorners" type="boolean" value="false"/>
+							</Property>
+							<Property name="opaque" type="boolean" value="false"/>
+							<Property name="bounds" type="Rectangle">
+								<Rectangle value="[155, 5, 81, 26]"/>
+							</Property>
+						</Properties>
+					</Component>
+					<Component class="javax.swing.JButton" name="wisselenButton">
+						<Constraints>
+							<LayoutConstraint/>
+						</Constraints>
+						<Events>
+							<EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" handler="wisselenButtonActionPerformed"/>
+						</Events>
+						<Properties>
+							<Property name="enabled" type="boolean" value="false"/>
+							<Property name="text" type="String" value="Wisselen"/>
+							<Property name="preferredSize" type="Dimension">
+								<Dimension value="[88, 26]"/>
+							</Property>
+							<Property name="border" class="javax.swing.border.LineBorder">
+								<Property name="lineColor" type="Color">
+								<Color red="0" green="0" blue="0"/>
+							</Property>
+								<Property name="thickness" type="int" value="1"/>
+								<Property name="roundedCorners" type="boolean" value="false"/>
+							</Property>
+							<Property name="opaque" type="boolean" value="false"/>
+							<Property name="bounds" type="Rectangle">
+								<Rectangle value="[241, 5, 88, 26]"/>
+							</Property>
+						</Properties>
+					</Component>
+					<Component class="javax.swing.JButton" name="allesWisselenButton">
+						<Constraints>
+							<LayoutConstraint/>
+						</Constraints>
+						<Events>
+							<EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" handler="allesWisselenButtonActionPerformed"/>
+						</Events>
+						<Properties>
+							<Property name="enabled" type="boolean" value="false"/>
+							<Property name="text" type="String" value="Alles Wisselen"/>
+							<Property name="preferredSize" type="Dimension">
+								<Dimension value="[94, 26]"/>
+							</Property>
+							<Property name="border" class="javax.swing.border.LineBorder">
+								<Property name="lineColor" type="Color">
+								<Color red="0" green="0" blue="0"/>
+							</Property>
+								<Property name="thickness" type="int" value="1"/>
+								<Property name="roundedCorners" type="boolean" value="false"/>
+							</Property>
+							<Property name="opaque" type="boolean" value="false"/>
+							<Property name="bounds" type="Rectangle">
+								<Rectangle value="[334, 5, 94, 26]"/>
+							</Property>
+						</Properties>
+					</Component>
+				</SubComponents>
+			</Component>
+			<Component class="javax.swing.JPanel" name="scrollPanels">
+				<Constraints>
+					<LayoutConstraint/>
+				</Constraints>
+				<Layout class="Absolute">
+				</Layout>
+				<Events>
+				</Events>
+				<Properties>
+					<Property name="visible" type="boolean" value="true"/>
+					<Property name="preferredSize" type="Dimension">
+						<Dimension value="[200, 528]"/>
+					</Property>
+					<Property name="opaque" type="boolean" value="false"/>
+					<Property name="bounds" type="Rectangle">
+						<Rectangle value="[-1, 0, 200, 528]"/>
+					</Property>
+				</Properties>
+			</Component>
+		</SubComponents>
+	</Component>
+</Form>

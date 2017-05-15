@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Form style="Swing" ide="eclipse" builder="jigloo" version="2.7.2">
+<ExtraComponents>
+		<Component class="javax.swing.JMenuBar" name="theMenuBar">
+			<Constraints>
+				<LayoutConstraint/>
+			</Constraints>
+			<Events>
+			</Events>
+			<Properties>
+				<Property name="bounds" type="Rectangle">
+					<Rectangle value="[0, 0, 0, 0]"/>
+				</Property>
+			</Properties>
+			<SubComponents>
+				<Component class="javax.swing.JMenu" name="spelMenu">
+					<Constraints>
+						<LayoutConstraint/>
+					</Constraints>
+					<Events>
+					</Events>
+					<Properties>
+						<Property name="text" type="String" value="Spel"/>
+					</Properties>
+				</Component>
+			</SubComponents>
+		</Component></ExtraComponents>
+<NonVisualComponents>
+		<Component class="java.lang.Object" name="object1">
+			<Constraints>
+				<LayoutConstraint/>
+			</Constraints>
+			<Properties>
+			</Properties>
+		</Component></NonVisualComponents>
+	<Component class="javax.swing.JFrame" name="MainFrame">
+		<Constraints>
+			<LayoutConstraint/>
+		</Constraints>
+		<Layout class="Absolute">
+		</Layout>
+		<Events>
+		</Events>
+		<Properties>
+			<Property name="defaultCloseOperation" type="int" value="3"/>
+			<Property name="resizable" type="boolean" value="true"/>
+			<Property name="title" type="String" value="31-en The Game"/>
+			<Property name="size" type="Dimension">
+				<Dimension value="[700, 550]"/>
+			</Property>
+			<Property name="bounds" type="Rectangle">
+				<Rectangle value="[0, 0, 700, 550]"/>
+			</Property>
+		</Properties>
+		<SubComponents>
+			<Component class="javax.swing.JPanel" name="thePanel">
+				<Constraints>
+					<LayoutConstraint/>
+				</Constraints>
+				<Layout class="Absolute">
+				</Layout>
+				<Events>
+				</Events>
+				<Properties>
+					<Property name="preferredSize" type="Dimension">
+						<Dimension value="[700, 525]"/>
+					</Property>
+					<Property name="opaque" type="boolean" value="false"/>
+					<Property name="bounds" type="Rectangle">
+						<Rectangle value="[0, 0, 700, 525]"/>
+					</Property>
+				</Properties>
+				<SubComponents>
+					<Component class="javax.swing.JPanel" name="mijnHandPanel">
+						<Constraints>
+							<LayoutConstraint/>
+						</Constraints>
+						<Layout class="Absolute">
+						</Layout>
+						<Events>
+						</Events>
+						<Properties>
+							<Property name="preferredSize" type="Dimension">
+								<Dimension value="[500, 229]"/>
+							</Property>
+							<Property name="opaque" type="boolean" value="false"/>
+							<Property name="bounds" type="Rectangle">
+								<Rectangle value="[200, 0, 500, 229]"/>
+							</Property>
+						</Properties>
+					</Component>
+					<Component class="javax.swing.JPanel" name="deTafelPanel">
+						<Constraints>
+							<LayoutConstraint/>
+						</Constraints>
+						<Layout class="Absolute">
+						</Layout>
+						<Events>
+						</Events>
+						<Properties>
+							<Property name="preferredSize" type="Dimension">
+								<Dimension value="[500, 250]"/>
+							</Property>
+							<Property name="opaque" type="boolean" value="false"/>
+							<Property name="bounds" type="Rectangle">
+								<Rectangle value="[200, 280, 500, 250]"/>
+							</Property>
+						</Properties>
+					</Component>
+					<Component class="javax.swing.JPanel" name="knoppenPanel">
+						<Constraints>
+							<LayoutConstraint/>
+						</Constraints>
+						<Events>
+						</Events>
+						<Properties>
+							<Property name="visible" type="boolean" value="true"/>
+							<Property name="preferredSize" type="Dimension">
+								<Dimension value="[500, 50]"/>
+							</Property>
+							<Property name="opaque" type="boolean" value="false"/>
+							<Property name="bounds" type="Rectangle">
+								<Rectangle value="[200, 229, 500, 50]"/>
+							</Property>
+						</Properties>
+						<SubComponents>
+							<Component class="javax.swing.JButton" name="passenButton">
+								<Constraints>
+									<LayoutConstraint/>
+								</Constraints>
+								<Events>
+								</Events>
+								<Properties>
+									<Property name="text" type="String" value="Passen"/>
+									<Property name="preferredSize" type="Dimension">
+										<Dimension value="[79, 27]"/>
+									</Property>
+									<Property name="border" class="javax.swing.border.LineBorder">
+										<Property name="lineColor" type="Color">
+										<Color red="0" green="0" blue="0"/>
+									</Property>
+										<Property name="thickness" type="int" value="1"/>
+										<Property name="roundedCorners" type="boolean" value="false"/>
+									</Property>
+									<Property name="opaque" type="boolean" value="false"/>
+									<Property name="bounds" type="Rectangle">
+										<Rectangle value="[71, 5, 79, 27]"/>
+									</Property>
+								</Properties>
+							</Component>
+							<Component class="javax.swing.JButton" name="overslaanButton">
+								<Constraints>
+									<LayoutConstraint/>
+								</Constraints>
+								<Events>
+								</Events>
+								<Properties>
+									<Property name="text" type="String" value="Overslaan"/>
+									<Property name="preferredSize" type="Dimension">
+										<Dimension value="[81, 26]"/>
+									</Property>
+									<Property name="border" class="javax.swing.border.LineBorder">
+										<Property name="lineColor" type="Color">
+										<Color red="0" green="0" blue="0"/>
+									</Property>
+										<Property name="thickness" type="int" value="1"/>
+										<Property name="roundedCorners" type="boolean" value="false"/>
+									</Property>
+									<Property name="opaque" type="boolean" value="false"/>
+									<Property name="bounds" type="Rectangle">
+										<Rectangle value="[155, 5, 81, 26]"/>
+									</Property>
+								</Properties>
+							</Component>
+							<Component class="javax.swing.JButton" name="wisselenButton">
+								<Constraints>
+									<LayoutConstraint/>
+								</Constraints>
+								<Events>
+								</Events>
+								<Properties>
+									<Property name="text" type="String" value="Wisselen"/>
+									<Property name="preferredSize" type="Dimension">
+										<Dimension value="[88, 26]"/>
+									</Property>
+									<Property name="border" class="javax.swing.border.LineBorder">
+										<Property name="lineColor" type="Color">
+										<Color red="0" green="0" blue="0"/>
+									</Property>
+										<Property name="thickness" type="int" value="1"/>
+										<Property name="roundedCorners" type="boolean" value="false"/>
+									</Property>
+									<Property name="opaque" type="boolean" value="false"/>
+									<Property name="bounds" type="Rectangle">
+										<Rectangle value="[241, 5, 88, 26]"/>
+									</Property>
+								</Properties>
+							</Component>
+							<Component class="javax.swing.JButton" name="allesWisselenButton">
+								<Constraints>
+									<LayoutConstraint/>
+								</Constraints>
+								<Events>
+								</Events>
+								<Properties>
+									<Property name="text" type="String" value="Alles Wisselen"/>
+									<Property name="preferredSize" type="Dimension">
+										<Dimension value="[94, 27]"/>
+									</Property>
+									<Property name="border" class="javax.swing.border.LineBorder">
+										<Property name="lineColor" type="Color">
+										<Color red="0" green="0" blue="0"/>
+									</Property>
+										<Property name="thickness" type="int" value="1"/>
+										<Property name="roundedCorners" type="boolean" value="false"/>
+									</Property>
+									<Property name="opaque" type="boolean" value="false"/>
+									<Property name="bounds" type="Rectangle">
+										<Rectangle value="[334, 5, 94, 27]"/>
+									</Property>
+								</Properties>
+							</Component>
+						</SubComponents>
+					</Component>
+					<Component class="javax.swing.JPanel" name="scrollPanels">
+						<Constraints>
+							<LayoutConstraint/>
+						</Constraints>
+						<Layout class="Absolute">
+						</Layout>
+						<Events>
+						</Events>
+						<Properties>
+							<Property name="visible" type="boolean" value="true"/>
+							<Property name="preferredSize" type="Dimension">
+								<Dimension value="[200, 528]"/>
+							</Property>
+							<Property name="opaque" type="boolean" value="false"/>
+							<Property name="bounds" type="Rectangle">
+								<Rectangle value="[-1, 0, 200, 528]"/>
+							</Property>
+						</Properties>
+					</Component>
+				</SubComponents>
+			</Component>
+			<Component class="javax.swing.JLabel" name="bgPictureLabel">
+				<Constraints>
+					<LayoutConstraint/>
+				</Constraints>
+				<Events>
+				</Events>
+				<Properties>
+					<Property name="horizontalAlignment" type="int" value="2"/>
+					<Property name="horizontalTextPosition" type="int" value="2"/>
+					<Property name="icon" type="Icon">
+						<Icon name="\userInterface\images\mainFrameBackground.jpg"/>
+					</Property>
+					<Property name="iconTextGap" type="int" value="0"/>
+					<Property name="verticalAlignment" type="int" value="1"/>
+					<Property name="verticalTextPosition" type="int" value="1"/>
+					<Property name="visible" type="boolean" value="true"/>
+					<Property name="preferredSize" type="Dimension">
+						<Dimension value="[700, 529]"/>
+					</Property>
+					<Property name="opaque" type="boolean" value="true"/>
+					<Property name="requestFocusEnabled" type="boolean" value="false"/>
+					<Property name="verifyInputWhenFocusTarget" type="boolean" value="true"/>
+					<Property name="bounds" type="Rectangle">
+						<Rectangle value="[0, 0, 700, 529]"/>
+					</Property>
+					<Property name="focusTraversalKeysEnabled" type="boolean" value="false"/>
+					<Property name="focusable" type="boolean" value="false"/>
+					<Property name="ignoreRepaint" type="boolean" value="true"/>
+				</Properties>
+				<SubComponents>
+					<Component class="javax.swing.JLabel" name="transparantVlak1">
+						<Constraints>
+							<LayoutConstraint/>
+						</Constraints>
+						<Events>
+						</Events>
+						<Properties>
+							<Property name="icon" type="Icon">
+								<Icon name="\userInterface\images\transparant.png"/>
+							</Property>
+							<Property name="preferredSize" type="Dimension">
+								<Dimension value="[197, 229]"/>
+							</Property>
+							<Property name="bounds" type="Rectangle">
+								<Rectangle value="[0, 0, 197, 229]"/>
+							</Property>
+						</Properties>
+					</Component>
+					<Component class="javax.swing.JLabel" name="transparantVlak2">
+						<Constraints>
+							<LayoutConstraint/>
+						</Constraints>
+						<Events>
+						</Events>
+						<Properties>
+							<Property name="icon" type="Icon">
+								<Icon name="\userInterface\images\transparant.png"/>
+							</Property>
+							<Property name="preferredSize" type="Dimension">
+								<Dimension value="[197, 299]"/>
+							</Property>
+							<Property name="bounds" type="Rectangle">
+								<Rectangle value="[0, 229, 197, 299]"/>
+							</Property>
+						</Properties>
+					</Component>
+					<Component class="javax.swing.JLabel" name="transparantVlak3">
+						<Constraints>
+							<LayoutConstraint/>
+						</Constraints>
+						<Events>
+						</Events>
+						<Properties>
+							<Property name="icon" type="Icon">
+								<Icon name="\userInterface\images\transparant.png"/>
+							</Property>
+							<Property name="preferredSize" type="Dimension">
+								<Dimension value="[464, 32]"/>
+							</Property>
+							<Property name="bounds" type="Rectangle">
+								<Rectangle value="[216, 231, 464, 32]"/>
+							</Property>
+						</Properties>
+					</Component>
+					<Component class="javax.swing.JLabel" name="transparantVlak4">
+						<Constraints>
+							<LayoutConstraint/>
+						</Constraints>
+						<Events>
+						</Events>
+						<Properties>
+							<Property name="icon" type="Icon">
+								<Icon name="\userInterface\images\transparant.png"/>
+							</Property>
+							<Property name="preferredSize" type="Dimension">
+								<Dimension value="[421, 195]"/>
+							</Property>
+							<Property name="bounds" type="Rectangle">
+								<Rectangle value="[233, 20, 421, 195]"/>
+							</Property>
+						</Properties>
+					</Component>
+					<Component class="javax.swing.JLabel" name="transparantVlak4_1">
+						<Constraints>
+							<LayoutConstraint/>
+						</Constraints>
+						<Events>
+						</Events>
+						<Properties>
+							<Property name="icon" type="Icon">
+								<Icon name="\userInterface\images\transparant.png"/>
+							</Property>
+							<Property name="preferredSize" type="Dimension">
+								<Dimension value="[421, 195]"/>
+							</Property>
+							<Property name="bounds" type="Rectangle">
+								<Rectangle value="[233, 20, 421, 195]"/>
+							</Property>
+						</Properties>
+					</Component>
+					<Component class="javax.swing.JLabel" name="transparantVlak5">
+						<Constraints>
+							<LayoutConstraint/>
+						</Constraints>
+						<Events>
+						</Events>
+						<Properties>
+							<Property name="icon" type="Icon">
+								<Icon name="\userInterface\images\transparant.png"/>
+							</Property>
+							<Property name="preferredSize" type="Dimension">
+								<Dimension value="[421, 195]"/>
+							</Property>
+							<Property name="bounds" type="Rectangle">
+								<Rectangle value="[239, 296, 421, 195]"/>
+							</Property>
+						</Properties>
+					</Component>
+					<Component class="javax.swing.JLabel" name="transparantVlak5_1">
+						<Constraints>
+							<LayoutConstraint/>
+						</Constraints>
+						<Events>
+						</Events>
+						<Properties>
+							<Property name="icon" type="Icon">
+								<Icon name="\userInterface\images\transparant.png"/>
+							</Property>
+							<Property name="preferredSize" type="Dimension">
+								<Dimension value="[421, 195]"/>
+							</Property>
+							<Property name="bounds" type="Rectangle">
+								<Rectangle value="[239, 296, 421, 195]"/>
+							</Property>
+						</Properties>
+					</Component>
+				</SubComponents>
+			</Component>
+		</SubComponents>
+	</Component>
+</Form>
